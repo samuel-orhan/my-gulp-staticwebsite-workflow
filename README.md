@@ -5,8 +5,8 @@ Il n'accompagne pas l'utilisation de process serveur. Les tâches dédiés conce
 
 * La partie HTML
   - Le contrôle des règle avec le linting HTML
-  - L'injection et la réécriture des URL pour eviter tout effet dûe à une structure de document par dossiers
-  - L'utilisation des facilités apportés par les moteurs de templates de type mustache
+  - L'injection et la réécriture des URL pour éviter tout effet dû à une structure de document spécifique à la source
+  - L'utilisation des facilités apportés par les moteurs de templates de type mustache, Jade ou Nunjunk
   - La minification des sources HTML
 
 * La partie CSS
@@ -21,7 +21,7 @@ Il n'accompagne pas l'utilisation de process serveur. Les tâches dédiés conce
 
 * La partie Assets :
   - Optimisation de la compression des images (Gif, Png, Jpeg et SVG)
-  - Génération des différents formats 'responsive' sur la base d'un redimenssionnement homothétique
+  - Génération des différents formats 'responsive' sur la base d'un redimensionnement homothétique
 
 * La partie optimisation globales
   - Génération des fichiers de sitemap, robots et manifest
@@ -37,7 +37,7 @@ Après avoir récupéreé la dernière version, utilisez la commande suivante po
 nécessaires au fonctionnement du Workflow de production
 
 ```
-D:\PHPSTORM\avocats-mba.fr > npm install
+npm install
 ```
 
 # Utilisation su Workflow
@@ -78,7 +78,7 @@ expressions régulières dans un flux
 
 ## Modules de templating
 
-* Nunjunk :git 
+* Nunjunk Gulp 
   - [gulp-nunjucks-render](https://www.npmjs.com/package/gulp-nunjucks-render/) : Système de templating complet
   - [gulp-data](https://www.npmjs.com/package/gulp-data/) : Aide pour créer es data à utiliser dans nunjunk
   - [nunjunk](http://mozilla.github.io/nunjucks/templating.html) : Documentation pour NunJunk
